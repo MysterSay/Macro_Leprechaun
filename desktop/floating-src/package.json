@@ -1,0 +1,17 @@
+{
+  "name": "macroleprechaun-floating-renderer",
+  "private": true,
+  "version": "0.17.0",
+  "scripts": {
+    "build": "node build.cjs"
+  },
+  "dependencies": {
+    "events": "3.3.0",
+    "howler": "2.2.4",
+    "json5": "2.2.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "sass": "1.106.1"
+  }
+}

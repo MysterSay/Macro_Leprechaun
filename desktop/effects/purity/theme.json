@@ -1,0 +1,36 @@
+{
+  "name": "Purity",
+  "author": "Luctarie",
+  "license": "CC-BY-4.0",
+  "themeVersion": "1.1",
+  "description": "Radial menu with a sleek look, with hotkey display compatibility and colored wedges.",
+  "engineVersion": 1,
+  "maxMenuRadius": 180,
+  "centerTextWrapWidth": 110,
+  "drawChildrenBelow": true,
+  "childTransitionTime": 200,
+  "drawWedgeSeparators": true,
+  "drawSelectionWedges": true,
+  "colors": {
+    "text-color": "rgb(255 255 255 / 0.9)",
+    "icon-color": "rgb(255 255 255 / 0.9)",
+    "icon-hover-color": "rgb(255 255 255 / 1.0)",
+    "ring-color": "rgb(13 13 13 / 0.86)",
+    "inner-circle": "rgba(255, 255, 255, 0.4)",
+    "wedge-color": "rgb(132 0 255 / 0.50)",
+    "sector-color-submenu": "rgb(103 0 237 / 0.82)",
+    "sector-color-action": "rgb(198 118 255 / 0.82)",
+    "background-main": "rgb(0 0 0 / 0)",
+    "background-secondary": "rgb(0 0 0 / 0.85)"
+  },
+  "layers": [
+    {
+      "class": "quick-key",
+      "content": "quick-select-key"
+    },
+    {
+      "class": "icon-layer",
+      "content": "icon"
+    }
+  ]
+}

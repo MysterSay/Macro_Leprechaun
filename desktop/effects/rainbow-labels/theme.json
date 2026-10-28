@@ -1,0 +1,26 @@
+{
+  "name": "Rainbow Labels",
+  "author": "Simon Schneegans",
+  "license": "CC0-1.0",
+  "themeVersion": "1.0",
+  "engineVersion": 1,
+  "maxMenuRadius": 160,
+  "centerTextWrapWidth": 90,
+  "drawChildrenBelow": false,
+  "drawCenterText": false,
+  "colors": {
+    "icon-color": "#333",
+    "label-background-color": "#333",
+    "label-color": "#ddd"
+  },
+  "layers": [
+    {
+      "class": "icon-layer",
+      "content": "icon"
+    },
+    {
+      "class": "label-layer",
+      "content": "name"
+    }
+  ]
+}

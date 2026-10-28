@@ -1,0 +1,7 @@
+build/data/
+android/.gradle/
+android/out/
+android/app/build/
+android/local.properties
+*.keystore
+*.idsig

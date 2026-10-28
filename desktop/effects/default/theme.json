@@ -1,0 +1,29 @@
+{
+  "name": "Default",
+  "author": "Simon Schneegans",
+  "license": "CC0-1.0",
+  "themeVersion": "1.0",
+  "engineVersion": 1,
+  "maxMenuRadius": 160,
+  "centerTextWrapWidth": 95,
+  "drawChildrenBelow": true,
+  "drawSelectionWedges": true,
+  "colors": {
+    "background-color": "rgb(255, 255, 255)",
+    "text-color": "rgb(60, 60, 60)",
+    "border-color": "rgb(109, 109, 109)",
+    "hover-color": "rgb(255, 200, 200)",
+    "wedge-highlight-color": "rgba(0, 0, 0, 0.1)",
+    "wedge-color": "rgba(0, 0, 0, 0.2)"
+  },
+  "layers": [
+    {
+      "class": "quick-key",
+      "content": "quick-select-key"
+    },
+    {
+      "class": "icon-layer",
+      "content": "icon"
+    }
+  ]
+}

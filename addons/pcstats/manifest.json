@@ -1,0 +1,33 @@
+{
+  "id": "pcstats",
+  "name": "Статистика ПК",
+  "version": "1.2.0",
+  "api": 2,
+  "actions": [],
+  "settingsUI": "settings.html",
+  "description": "CPU, RAM, GPU та мова активної клавіатури. Усі змінні вимкнені за замовчуванням.",
+  "variables": [
+    {
+      "id": "cpu",
+      "name": "CPU %",
+      "enableSetting": "cpu"
+    },
+    {
+      "id": "ram",
+      "name": "RAM %",
+      "enableSetting": "ram"
+    },
+    {
+      "id": "gpu",
+      "name": "GPU %",
+      "enableSetting": "gpu"
+    },
+    {
+      "id": "keyboard",
+      "name": "Мова клавіатури",
+      "enableSetting": "keyboard"
+    }
+  ],
+  "runtime": "powershell",
+  "entry": "plugin.ps1"
+}

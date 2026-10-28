@@ -1,0 +1,10 @@
+{
+  "s0": "Smart panel\n\nConnect your PC and phone to the same local network. Macros and settings stay on your PC.\n\nPC address",
+  "s1": "Connect",
+  "s2": "Find PC on the network",
+  "s3": "Enter an address such as http://192.168.0.3:47640",
+  "s4": "Checking connection…",
+  "s5": "PC unavailable. Check the address, Wi-Fi and Windows firewall.",
+  "s6": "PC found. Tap Connect.",
+  "s7": "Finding PC via mDNS and UDP…"
+}

@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8">
+<style>body{font:14px Segoe UI;background:#191d22;color:#eee;padding:20px}textarea{width:95%;height:200px;background:#101216;color:#eee;border:1px solid #56615b;padding:10px}button{margin-top:16px;padding:10px 20px;background:var(--accent,#6dde91);border:0;border-radius:8px}</style>
+<h2>Власне вікно пазла</h2><p>Можна додати будь-яку HTML-форму та зберегти JSON-об’єкт.</p>
+<textarea id="text"></textarea><br><button id="save">Зберегти</button><button id="cancel">Скасувати</button>
+<script>
+addEventListener('message', e => { if(e.data.type==='init'){document.querySelector('#text').value=e.data.value?.text||'';document.documentElement.style.setProperty('--accent',e.data.accent||'#6dde91')} });
+document.querySelector('#save').onclick=()=>parent.postMessage({type:'save',value:{text:document.querySelector('#text').value}},'*');
+document.querySelector('#cancel').onclick=()=>parent.postMessage({type:'cancel'},'*');
+</script>

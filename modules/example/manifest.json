@@ -1,0 +1,49 @@
+{
+  "id": "example",
+  "name": "Приклад доповнення",
+  "version": "2.0.0",
+  "api": 2,
+  "runtime": "powershell",
+  "entry": "plugin.ps1",
+  "description": "Відкритий шаблон: текстовий рядок, список і власне HTML-вікно.",
+  "settingsUI": "settings.html",
+  "variables": [
+    {
+      "id": "clock",
+      "name": "Час прикладу"
+    },
+    {
+      "id": "message",
+      "name": "Текст прикладу"
+    }
+  ],
+  "puzzleCategories": [
+    {
+      "id": "example",
+      "name": "Приклад",
+      "blocks": [
+        {
+          "id": "text",
+          "name": "Записати текст",
+          "editor": "text"
+        },
+        {
+          "id": "choice",
+          "name": "Вибір зі списку",
+          "editor": "select",
+          "options": [
+            "one",
+            "two",
+            "three"
+          ]
+        },
+        {
+          "id": "dialog",
+          "name": "Вікно налаштувань",
+          "editor": "button",
+          "ui": "editor.html"
+        }
+      ]
+    }
+  ]
+}
