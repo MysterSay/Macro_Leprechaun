@@ -5,3 +5,7 @@ android/app/build/
 android/local.properties
 *.keystore
 *.idsig
+# BEGIN ProjectDock exclusions
+# paths: ["build/"]
+/build/
+# END ProjectDock exclusions
