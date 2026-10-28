@@ -6,7 +6,7 @@
 
 Your personal Windows automation: build macros from puzzle blocks and launch them from an Android phone, an edge widget or a floating radial menu.
 
-[Project website](https://macroleprechaun.freshsage4.chatgpt.site/) · [Download](https://github.com/MysterSay/Macro_Leprechaun/releases) · [Addon API](docs/ADDON_API_V2.md) · [Support development](https://send.monobank.ua/jar/3rqmBsdneV)
+[Project website](https://macroleprechaun.freshsage4.chatgpt.site/) · [Addon API](docs/ADDON_API_V2.md) · [Support development](https://send.monobank.ua/jar/3rqmBsdneV)
 
 ### Features
 
@@ -25,7 +25,7 @@ Your personal Windows automation: build macros from puzzle blocks and launch the
 
 ### Download and run
 
-1. Open [GitHub Releases](https://github.com/MysterSay/Macro_Leprechaun/releases) and download `MacroLeprechaun.exe`; download `MacroLeprechaun.apk` for your phone.
+1. Download `MacroLeprechaun.exe`; download `MacroLeprechaun.apk` for your phone.
 2. Place the EXE in a writable folder and launch it. The app creates and uses `data` beside the EXE. If using a complete package, preserve its folder structure.
 3. The editor and radial menu require **Microsoft Edge WebView2 Runtime**. The app uses its own profile without your personal browser extensions.
 4. To connect a phone, enable the smart panel, open “Settings → Connect phone” and generate a pairing code. Both devices must share a reachable local network; allow the app through Windows Firewall for that network.
@@ -71,7 +71,7 @@ The [repository](https://github.com/MysterSay/Macro_Leprechaun) contains the Go 
 
 Ваша особиста автоматизація Windows: складайте макроси з пазлів і запускайте їх із телефона Android, віджета на краю екрана або плаваючого кругового меню.
 
-[Сайт проєкту](https://macroleprechaun.freshsage4.chatgpt.site/) · [Завантажити реліз](https://github.com/MysterSay/Macro_Leprechaun/releases) · [API доповнень](docs/ADDON_API_V2.md) · [Підтримати розробку](https://send.monobank.ua/jar/3rqmBsdneV)
+[Сайт проєкту](https://macroleprechaun.freshsage4.chatgpt.site/) · [API доповнень](docs/ADDON_API_V2.md) · [Підтримати розробку](https://send.monobank.ua/jar/3rqmBsdneV)
 
 ### Можливості
 
@@ -90,7 +90,7 @@ The [repository](https://github.com/MysterSay/Macro_Leprechaun) contains the Go 
 
 ### Завантаження і запуск
 
-1. Відкрийте [GitHub Releases](https://github.com/MysterSay/Macro_Leprechaun/releases) і завантажте `MacroLeprechaun.exe`; для телефона — `MacroLeprechaun.apk`.
+1. Завантажте `MacroLeprechaun.exe`; для телефона — `MacroLeprechaun.apk`.
 2. Помістіть EXE у папку, доступну для запису, та запустіть. Програма створює й використовує `data` поруч з EXE. Якщо використовуєте повний пакет, зберігайте його структуру.
 3. Для редактора і кругового меню потрібен **Microsoft Edge WebView2 Runtime**. Використовується окремий профіль програми, без особистих розширень браузера.
 4. Для телефона ввімкніть смарт-панель, відкрийте «Налаштування → Підключити телефон» і створіть код підключення. ПК та телефон мають бути в одній доступній локальній мережі; дозвольте програмі доступ у брандмауері Windows для цієї мережі.
