@@ -6,7 +6,7 @@
 
 Your personal Windows automation: build macros from puzzle blocks and launch them from an Android phone, an edge widget or a floating radial menu.
 
-[Project website](https://macroleprechaun.freshsage4.chatgpt.site/) · [Addon API](docs/ADDON_API_V2.md) · [Support development](https://send.monobank.ua/jar/3rqmBsdneV)
+[Project website](https://macroleprechaun-web.sanya-1998-16-4.workers.dev/) · [Addon API](docs/ADDON_API_V2.md) · [Support development](https://send.monobank.ua/jar/3rqmBsdneV)
 
 ### Features
 
@@ -71,7 +71,7 @@ The [repository](https://github.com/MysterSay/Macro_Leprechaun) contains the Go 
 
 Ваша особиста автоматизація Windows: складайте макроси з пазлів і запускайте їх із телефона Android, віджета на краю екрана або плаваючого кругового меню.
 
-[Сайт проєкту](https://macroleprechaun.freshsage4.chatgpt.site/) · [API доповнень](docs/ADDON_API_V2.md) · [Підтримати розробку](https://send.monobank.ua/jar/3rqmBsdneV)
+[Сайт проєкту](https://macroleprechaun-web.sanya-1998-16-4.workers.dev/) · [API доповнень](docs/ADDON_API_V2.md) · [Підтримати розробку](https://send.monobank.ua/jar/3rqmBsdneV)
 
 ### Можливості
 
